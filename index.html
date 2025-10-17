@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrickHD Server</title>
+
+    <link rel="stylesheet" href="./asset/style.css" />
+</head>
+<body>
+
+
+
+
+<div class="container-fluid">
+<div class="logo">
+  <div class="img">
+    <img src="https://cdn-icons-png.flaticon.com/128/1099/1099680.png"/>
+    </div>
+  <div class="name"> &nbsp;CrickHD</div>
+</div>
+<div class="list">
+    <a href="./credits.html">Credit</a>
+    <a href="https://t.me/maxmentor">Telegram</a>
+  
+ 
+</div>
+</div>
+
+<br><br>	
+
+<div class="copy-text">
+		<input  type="text" class="text" value="https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/ALL.m3u" />
+		<button><i class="fa fa-clone"></i>COPY</button>
+	</div>
+</div>
+
+
+
+<br><br>
+
+<div class="container">
+  <input id="searchBar" type="text" placeholder="Search"/>
+</div>
+
+<br><br><br>
+
+
+
+
+
+
+
+
+
+
+    <div class="cards">
+
+
+    
+    
+    
+    <div class="card">
+ <img src="https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/16-by-xfireflix.png" /> 
+    <p><a href="./maxplay.html?id=star1in"><b>Star Sports 1</b></a></p>
+
+    </div>
+
+       
+     
+         
+
+
+
+</div>
+
+
+
+<div class="footer">
+  CrickHD Server By     <a style="color:yellow;" href="https://t.me/maxmentor"> @maxmentor </a>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+  $("#searchBar").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $(".card").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+
+     
+    });
+  });
+});
+
+
+
+
+
+
+
+
+let copyText = document.querySelector(".copy-text");
+copyText.querySelector("button").addEventListener("click", function () {
+	let input = copyText.querySelector("input.text");
+	input.select();
+	document.execCommand("copy");
+	copyText.classList.add("active");
+	window.getSelection().removeAllRanges();
+	setTimeout(function () {
+		copyText.classList.remove("active");
+	}, 2500);
+});
+
+</script>
+</body>
+</html>
