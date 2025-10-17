@@ -1,17 +1,17 @@
 [
     {
-        "name": "Star Sports 1",
-        "id": "star1in",
         "logo": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/16-by-xfireflix.png",
         "link": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8",
+        "id": "star1in",
+        "name": "Star Sports 1",
         "referer": "https://stylisheleg4nt.com",
         "origin": "https://stylisheleg4nt.com"
     },
     {
-        "name": "Star Sports 1 Hindi",
-        "id": "starhindi",
-        "logo": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/1-by-xfireflix.png",
-        "link": "https://d15.epicquesthero.com:999/hls/starhindi.m3u8?md5=zSnUTULECdmASVzatsxWnQ&expires=1760737182",
+       "logo": "https://raw.githubusercontent.com/abusaeeidx/Tv-Channel-Logo/heads/main/CricHD/runded/16-by-xfireflix.png",
+        "link": "https://2gblive.akamaized.net/hls/live/2033805/2GB/index.m3u8",
+        "id": "star1in",
+        "name": "Star Sports 1",
         "referer": "https://stylisheleg4nt.com",
         "origin": "https://stylisheleg4nt.com"
     }
